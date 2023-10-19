@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/portfolio-website/static/css/main.696be25e.css",
+    "main.css": "/portfolio-website/static/css/main.7218c88b.css",
     "main.js": "/portfolio-website/static/js/main.a01aa79f.js",
     "static/media/jordanfade.png": "/portfolio-website/static/media/jordanfade.5b5342f081995e882a3b.png",
     "static/media/razer.jpg": "/portfolio-website/static/media/razer.e6129875ef20a2611299.jpg",
@@ -12,11 +12,11 @@
     "index.html": "/portfolio-website/index.html",
     "static/media/react.svg": "/portfolio-website/static/media/react.928f956d9c8ebcffb98a8e917154a81a.svg",
     "static/media/burgermenu.svg": "/portfolio-website/static/media/burgermenu.67332a81bb07963cece5a9cafca80db2.svg",
-    "main.696be25e.css.map": "/portfolio-website/static/css/main.696be25e.css.map",
+    "main.7218c88b.css.map": "/portfolio-website/static/css/main.7218c88b.css.map",
     "main.a01aa79f.js.map": "/portfolio-website/static/js/main.a01aa79f.js.map"
   },
   "entrypoints": [
-    "static/css/main.696be25e.css",
+    "static/css/main.7218c88b.css",
     "static/js/main.a01aa79f.js"
   ]
 }
