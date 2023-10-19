@@ -1,0 +1,138 @@
+.navbar {
+    height: 7rem;
+    width: 100vw;
+    max-width: 75rem;
+    margin: 0 auto;
+    padding: 0rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 3;
+    /* box-shadow: 0px 5px 10px #e5e5e5; */
+    background-color: #fafafa;
+}
+
+.emailIcon {
+  width: 25px;
+  margin-left: 0.5rem;
+}
+
+.logo {
+    object-fit: cover;
+    height: 5rem;
+}
+
+.menuItem {
+    margin: 2rem 5rem;
+    cursor: pointer;
+    position: relative;
+}
+
+.contactButton {
+    display: flex;
+    box-shadow: 4px 1px 0px #000000;
+    font-size: 1.3rem;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.menu {
+   border-radius: 10px;
+}
+
+
+
+.menuContainer {
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+.menuSeparator {
+    margin-top: 3px;
+    height: 2px;
+    width: 0; 
+    background: linear-gradient(90deg,rgb(52, 52, 52), rgb(223, 223, 223));
+    border: none;
+    position: absolute;
+    left: 0%; 
+    transform: translateX(0%); 
+    transition: width 0.1s ease-in-out;
+}
+  
+.menuItem:hover .menuSeparator {
+    width: 150%; 
+}
+
+.mobileMenu {
+  display: none;
+}
+
+
+
+
+/* TABLET STYLE - 768px */
+@media screen and (max-width: 768px) {
+    .navbar {
+      height: 7rem;
+    }
+  
+    .logo {
+      height: 5rem; 
+    }
+  
+    .menuItem {
+      margin: 1rem 2rem;
+    }
+}
+
+
+/* Mobile styles */
+@media screen and (max-width: 480px) {
+  .navbar {
+    height: 8rem; /* Adjust height for mobile */
+    padding: 2rem; /* Adjust padding for mobile */
+  }
+
+  .logo {
+    height: 3rem; /* Adjust logo size for mobile */
+  }
+
+  .menuItem {
+    margin: 0.5rem 1rem; /* Adjust margin for mobile */
+  }
+
+  .menuContainer {
+    flex-direction: column; /* Stack menu items vertically on mobile */
+    align-items: flex-start; /* Adjust alignment for mobile */
+  }
+
+  .menu {
+    display: none;
+  }
+
+  .contactButton {
+    display: none;
+  }
+
+  .logo {
+    height: 6rem;
+}
+
+  .mobileMenu {
+    display: flex;
+    width: 3rem;
+  }
+
+  .profile {
+    display: none;
+  }
+
+  #webDevSpan {
+    background-color: none;
+  }
+}

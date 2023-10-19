@@ -1,0 +1,71 @@
+/* #content {
+    height: 90vh;
+    width: 100vw;
+    padding: 2rem;
+    font-size: 5rem;
+    font-weight: 700;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+} */
+
+.about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    width: 100vw;
+    max-width: 75rem;
+    margin: 0 auto;
+    height: 100vh;
+}
+
+.aboutTitle {
+    font-size: 3rem;
+    font-weight: bold;
+    padding-top: 3rem;
+    margin-bottom: 5rem;
+}
+
+.aboutDesc {
+    font-weight: 200;
+    font-size: 1.5rem;
+    max-width: 100vh;
+    padding: 0 2rem;
+    text-align: center;
+    line-height: 3rem;
+}
+
+.aboutDesc2 {
+    margin-top: 3rem;
+    font-weight: bold;
+    font-size: 1rem;
+    max-width: 100vh;
+    padding: 0 2rem;
+    text-align: center;
+    line-height: 3rem;
+}
+
+
+/* .aboutName {
+    font-weight: bold;
+    color: rgb(28, 153, 188);
+} */
+
+.bolder {
+    font-weight: bold;
+    background-color: rgba(238, 255, 0, 0.353);
+}
+
+/* TABLET STYLE - 768px */
+@media screen and (max-width: 768px) {
+    .about {
+        height: 105vh;
+    }
+
+    .aboutDesc {
+        padding: 0 7rem;
+        text-align: left;
+    }
+}

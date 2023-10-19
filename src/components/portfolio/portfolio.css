@@ -1,0 +1,127 @@
+.portfolio {
+    min-height: 95rem;
+    width: 100vw;
+    max-width: 75vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+.portfolioTitle {
+    margin: 1rem 0;
+    font-size: 3rem;
+}
+
+.portfolioDesc {
+    font-weight: 200;
+    font-size: 1.5rem;
+    max-width: 100vh;
+    padding: 0 2rem;
+    text-align: center;
+    line-height: 3rem;
+}
+
+.portfolioContainer {
+    margin-top: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100vw;
+    max-width: 75rem;
+}
+
+.portfolioCardNormal {
+    display: flex;
+    background: #87ceead9;;
+    padding: 20px;
+    border-radius: 20px;
+    margin-bottom: 5vh;
+}
+
+.portfolioCardReversed {
+    display: flex;
+    flex-direction: row-reverse;
+    background: #87ceea;
+    padding: 20px;
+    border-radius: 20px 0;
+}
+
+.portfolioImage {
+    object-fit: cover;
+    height: 28rem;
+    margin: 0.5rem;
+    border-radius: 20px;
+    max-width: 21vw;
+}
+
+.portfolioText {
+    object-fit: cover;
+    color: white;
+    background-color: #393939;
+    height: 28rem;
+    margin: 0.5rem;
+    border-radius: 20px 0;
+    max-width: 33rem;
+    font-size: 1.2rem;
+    line-height: 25px;
+    font-weight: 100;
+    word-spacing: 4px;
+    padding: 25px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+
+.projectSource {
+    display: flex;
+    background: white;
+    border-radius: 25px;
+    max-width: fit-content;
+}
+
+#github {
+    width: 50px;
+}
+
+.githubLink {
+    align-self: center;
+    color: black;
+    font-weight: bold;
+    font-family: monospace;
+    margin-right: 6px;
+}
+
+#externalLink {
+    width: 20px;
+    align-self: center;
+}
+
+.portfolioHeading {
+    margin-bottom: 2rem;
+}
+
+.portfolioPara {
+    margin-bottom: 2rem;
+}
+
+#technologiesUsed {
+    width: 40px;
+    height: 40px;
+}
+
+.techUsed {
+    display: flex;
+    justify-content: flex-end;
+}
+
+/* TABLET STYLE - 768px */
+@media screen and (max-width: 768px) {
+    .portfolio {
+        height: 200vh;
+    }
+}

@@ -1,0 +1,138 @@
+#intro {
+    margin: 0 auto;
+    height: 93vh;
+    width: 100vw;
+    max-width: 75rem;
+    overflow: hidden;
+}
+
+.profile {
+    margin-top: 10vh;
+    position: absolute;
+    top: 0rem;
+    /* right: 50vh; */
+    right: 25vw;
+    z-index: -1;
+    object-fit: cover;
+    height: 85vh; 
+}
+
+.content {
+    height: 90vh;
+    width: 100vw;
+    padding: 2rem;
+    font-size: 5rem;
+    font-weight: 700;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.hello {
+    font-size: 1.75rem;
+    font-weight: 100;
+}
+
+.introName {
+    color: rgb(28, 153, 188);
+}
+
+.introPara {
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.tech {
+    margin-top: 5vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100vw;
+    max-width: 40vw;
+    text-transform: uppercase;
+    background-color: rgba(0, 0, 0, 0.171);
+    padding: 20px;
+    align-items: center;
+}
+
+#html {
+    width: 50px;
+    height: 50px;
+    transition: all 0.5s ease-in-out; 
+}
+#html:hover {
+    transform: scale(2.5);
+}
+
+#css {
+    width: 50px;
+    height: 50px;
+    transition: all 0.5s ease-in-out; 
+}
+#css:hover {
+    transform: scale(2.5);
+}
+
+#js {
+    width: 50px;
+    height: 50px;
+    transition: all 0.5s ease-in-out; 
+}
+#js:hover {
+    transform: scale(2.5);
+}
+
+#react {
+    width: 50px;
+    height: 50px;
+    transition: all 0.5s ease-in-out; 
+}
+#react:hover {
+    transform: scale(2.5);
+}
+
+#tailwind {
+    width: 50px;
+    height: 50px;
+    transition: all 0.5s ease-in-out;
+}
+#tailwind:hover {
+    transform: scale(2.5);
+}
+
+.techPara {
+    font-size: 2rem;
+    font-weight: 100;
+}
+
+/* TABLET STYLE - 768px */
+@media screen and (max-width: 768px) {
+    .profile {
+        right: -3vw;
+    }
+
+    #webDevSpan {
+        background-color: #1c99bc;
+        color: white;
+    }
+
+    .introPara {
+        background-color: #393939;
+        color: white;
+        max-width: 60vw;
+    }
+
+    .tech {
+        max-width: 95vw;
+    }
+}
+
+
+/* MOBILE STYLE - 480px */
+@media screen and (max-width: 480px) {
+    #webDevSpan {
+        background-color: rgba(255, 255, 255, 0);
+        color: #393939;
+    }
+
+}
