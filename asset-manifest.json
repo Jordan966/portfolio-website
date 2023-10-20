@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/portfolio-website/static/css/main.7218c88b.css",
-    "main.js": "/portfolio-website/static/js/main.a01aa79f.js",
-    "static/media/jordanfade.png": "/portfolio-website/static/media/jordanfade.5b5342f081995e882a3b.png",
-    "static/media/razer.jpg": "/portfolio-website/static/media/razer.e6129875ef20a2611299.jpg",
-    "static/media/weather-app.jpg": "/portfolio-website/static/media/weather-app.f8a3c0d2cb46f27c8ed7.jpg",
-    "static/media/jd-logo.png": "/portfolio-website/static/media/jd-logo.9b177313f3cd89013b96.png",
-    "static/media/css.png": "/portfolio-website/static/media/css.463e319bad8e0edf1ef7.png",
-    "static/media/js.png": "/portfolio-website/static/media/js.3dfb665e058d08c99f28.png",
-    "static/media/tailwind.svg": "/portfolio-website/static/media/tailwind.79614a5f61617ba49a0891494521226b.svg",
-    "index.html": "/portfolio-website/index.html",
-    "static/media/react.svg": "/portfolio-website/static/media/react.928f956d9c8ebcffb98a8e917154a81a.svg",
-    "static/media/burgermenu.svg": "/portfolio-website/static/media/burgermenu.67332a81bb07963cece5a9cafca80db2.svg",
-    "main.7218c88b.css.map": "/portfolio-website/static/css/main.7218c88b.css.map",
-    "main.a01aa79f.js.map": "/portfolio-website/static/js/main.a01aa79f.js.map"
+    "main.css": "/static/css/main.7218c88b.css",
+    "main.js": "/static/js/main.3ebb7e15.js",
+    "static/media/jordanfade.png": "/static/media/jordanfade.5b5342f081995e882a3b.png",
+    "static/media/razer.jpg": "/static/media/razer.e6129875ef20a2611299.jpg",
+    "static/media/weather-app.jpg": "/static/media/weather-app.f8a3c0d2cb46f27c8ed7.jpg",
+    "static/media/jd-logo.png": "/static/media/jd-logo.9b177313f3cd89013b96.png",
+    "static/media/css.png": "/static/media/css.463e319bad8e0edf1ef7.png",
+    "static/media/js.png": "/static/media/js.3dfb665e058d08c99f28.png",
+    "static/media/tailwind.svg": "/static/media/tailwind.79614a5f61617ba49a0891494521226b.svg",
+    "index.html": "/index.html",
+    "static/media/react.svg": "/static/media/react.928f956d9c8ebcffb98a8e917154a81a.svg",
+    "static/media/burgermenu.svg": "/static/media/burgermenu.67332a81bb07963cece5a9cafca80db2.svg",
+    "main.7218c88b.css.map": "/static/css/main.7218c88b.css.map",
+    "main.3ebb7e15.js.map": "/static/js/main.3ebb7e15.js.map"
   },
   "entrypoints": [
     "static/css/main.7218c88b.css",
-    "static/js/main.a01aa79f.js"
+    "static/js/main.3ebb7e15.js"
   ]
 }
