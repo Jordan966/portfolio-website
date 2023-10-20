@@ -19,6 +19,8 @@
     max-width: 75rem;
     margin: 0 auto;
     height: 100vh;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bolder;
 }
 
 .aboutTitle {
