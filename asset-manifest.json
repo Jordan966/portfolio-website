@@ -1,22 +1,20 @@
 {
   "files": {
-    "main.css": "/static/css/main.7218c88b.css",
-    "main.js": "/static/js/main.3ebb7e15.js",
+    "main.css": "/static/css/main.a2df14ac.css",
+    "main.js": "/static/js/main.3db545b6.js",
     "static/media/jordanfade.png": "/static/media/jordanfade.5b5342f081995e882a3b.png",
-    "static/media/razer.jpg": "/static/media/razer.e6129875ef20a2611299.jpg",
-    "static/media/weather-app.jpg": "/static/media/weather-app.f8a3c0d2cb46f27c8ed7.jpg",
-    "static/media/jd-logo.png": "/static/media/jd-logo.9b177313f3cd89013b96.png",
+    "static/media/jdlogo.png": "/static/media/jdlogo.25c7c084dbfaf0a61b33.png",
     "static/media/css.png": "/static/media/css.463e319bad8e0edf1ef7.png",
     "static/media/js.png": "/static/media/js.3dfb665e058d08c99f28.png",
     "static/media/tailwind.svg": "/static/media/tailwind.79614a5f61617ba49a0891494521226b.svg",
     "index.html": "/index.html",
     "static/media/react.svg": "/static/media/react.928f956d9c8ebcffb98a8e917154a81a.svg",
     "static/media/burgermenu.svg": "/static/media/burgermenu.67332a81bb07963cece5a9cafca80db2.svg",
-    "main.7218c88b.css.map": "/static/css/main.7218c88b.css.map",
-    "main.3ebb7e15.js.map": "/static/js/main.3ebb7e15.js.map"
+    "main.a2df14ac.css.map": "/static/css/main.a2df14ac.css.map",
+    "main.3db545b6.js.map": "/static/js/main.3db545b6.js.map"
   },
   "entrypoints": [
-    "static/css/main.7218c88b.css",
-    "static/js/main.3ebb7e15.js"
+    "static/css/main.a2df14ac.css",
+    "static/js/main.3db545b6.js"
   ]
 }
