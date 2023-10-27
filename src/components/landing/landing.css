@@ -1,3 +1,31 @@
+.wave-container {  
+    height: 90vh;
+    background-color: #fafafa;
+    position: relative;
+    z-index: auto;
+  }
+  
+  .wave-container::before {   
+    content: "";
+    width: 100%;
+    height: 168px;
+    position: absolute;
+    bottom: -0.3%;
+    left: 0;
+    background-size: auto;
+    background-repeat: repeat no-repeat;
+    background-position: 81vw bottom;
+    background-image: url("data:image/svg+xml;utf8,<svg viewBox='0 0 1200  80' fill='none' xmlns='http://www.w3.org/2000/svg'><path d='M0 59L50 55C100 51 200 44 300 30C400 15 500 -6 600 1C700 8 800 44 900 59C1000 73 1100 66 1150 62L1200 59V80H1150C1100 80 1000 80 900 80C800 80 700 80 600 80C500 80 400 80 300 80C200 80 100 80 50 80H0V59Z' fill='%23000000'/></svg>");
+  }
+  
+  @media(max-width:850px) {
+    .wave-container::before {    
+      height: 84px
+    }  
+  }
+
+
+
 #intro {
     margin: 0 auto;
     height: 93vh;
@@ -12,27 +40,40 @@
     top: 0rem;
     /* right: 50vh; */
     right: 25vw;
-    z-index: -1;
+    z-index: 1;
     object-fit: cover;
     height: 85vh; 
 }
 
+@media screen and (max-width: 1700px) {
+    .profile {
+        right: 10vw;
+        height: 95vh;
+    }
+}
+
 .content {
-    height: 90vh;
+    height: 110vh;
     width: 100vw;
+    max-width: 75rem;
     padding: 2rem;
     font-size: 5rem;
     font-weight: 700;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    font-family: 'Raleway', sans-serif;
+    /* font-family: 'Raleway', sans-serif; */
+    font-family: 'Plus Jakarta Sans', sans-serif;
     font-weight: bolder;
 }
 
 .hello {
+    font-family: 'Kaushan Script', cursive;
     font-size: 1.75rem;
     font-weight: 100;
+    rotate: 345deg;
+    width: max-content;
+    margin: -10px;
 }
 
 .introName {
@@ -55,6 +96,15 @@
     background-color: rgba(0, 0, 0, 0.171);
     padding: 20px;
     align-items: center;
+    z-index: 2;
+}
+
+.socials {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 15rem;
+    z-index: 2;
 }
 
 #html {
@@ -107,6 +157,26 @@
     font-weight: 100;
 }
 
+#github {
+    width: 50px;
+    transition: all 0.3s ease-in-out; 
+}
+#github:hover {
+    transform: scale(1.5);
+    rotate: 360deg;
+}
+
+#linkedin {
+    width: 50px;
+    margin-left: 1rem;
+    transition: all 0.3s ease-in-out; 
+}
+#linkedin:hover {
+    transform: scale(1.5);
+    rotate: 360deg;
+}
+
+
 /* TABLET STYLE - 768px */
 @media screen and (max-width: 768px) {
     .profile {
@@ -138,3 +208,4 @@
     }
 
 }
+

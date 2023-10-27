@@ -12,9 +12,10 @@
     z-index: 3;
     /* box-shadow: 0px 5px 10px #e5e5e5; */
     background-color: #fafafa;
-    font-family: 'Raleway', sans-serif;
+    /* font-family: 'Raleway', sans-serif; */
+    font-family: 'Plus Jakarta Sans', sans-serif;
     font-weight: bolder;
-
+    color: black;
 }
 
 .emailIcon {
@@ -34,11 +35,15 @@
 }
 
 .contactButton {
-    display: flex;
-    box-shadow: 4px 1px 0px #000000;
-    font-size: 1.3rem;
-    padding: 10px;
-    cursor: pointer;
+  display: flex;
+  box-shadow: 4px 1px 0px #000000;
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 10px;
+  cursor: pointer;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  text-transform: uppercase;
+  align-items: center;
 }
 
 .menu {
