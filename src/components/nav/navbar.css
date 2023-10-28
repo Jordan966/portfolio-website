@@ -18,6 +18,44 @@
     color: black;
 }
 
+@media screen and (max-width: 1400px) {
+  .navbar {
+        height: 15vh;
+        width: 100vw;
+        max-width: 58rem;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        position: sticky;
+        top: 0;
+        z-index: 3;
+        background-color: #fafafa;
+        font-family: 'Plus Jakarta Sans', sans-serif;
+        font-weight: bolder;
+        color: black;
+  }
+  a.menuItem.scrollLink.active {
+        margin: 2rem 3rem;
+        cursor: pointer;
+        position: relative;
+}
+  a:nth-child(2) {
+    margin: 2rem 3rem;
+    cursor: pointer;
+    position: relative;
+  }
+
+  a:nth-child(3) {
+    margin: 2rem 3rem;
+    cursor: pointer;
+    position: relative;
+  }
+  .logo {
+    margin-right: auto;
+  }
+}
+
 .emailIcon {
   width: 25px;
   margin-left: 0.5rem;

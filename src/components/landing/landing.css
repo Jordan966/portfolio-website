@@ -46,11 +46,63 @@
     height: 85vh; 
 }
 
-@media screen and (max-width: 1700px) {
+@media screen and (max-width: 1400px) {
     .profile {
-        right: 10vw;
-        height: 95vh;
+        margin: 0;
+        transform: scale(1.1);
     }
+    #intro {
+        max-width: 60rem;
+    }
+
+    #intro > div {
+        font-size: 3rem;
+    }
+    #intro > div > p {
+        font-size: 1.2rem;
+        margin-top: 1rem;
+    }
+    .wave-container {
+        height: 85vh;
+    }
+    #intro > div > div.react-reveal.tech {
+        margin-top: 5vh;
+        max-width: 55vw;
+        padding: 0;
+        background: none;
+    }
+    #intro > div > div.react-reveal.tech > p {
+        font-size: 1.3rem;
+        font-weight: 100;
+    }
+    #intro > div > div.react-reveal.socials {
+        margin: 0;
+        margin-top: 4rem;
+        justify-content: flex-end;
+        max-width: 53rem;
+    }
+    #intro > div > div.react-reveal.socials > a:nth-child(2) {
+        margin: 0;
+    }
+
+    img#github {
+        width: 40px;
+    }
+
+    img#linkedin {
+        width: 40px;
+    }
+
+    #intro > div > span.react-reveal.hello {
+        font-size: 1.25rem;
+    }
+
+    img#html, img#css, img#js, img#react, img#tailwind {
+        width: 40px;
+        height: 40px;
+    }
+    
+    
 }
 
 .content {
