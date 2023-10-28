@@ -48,6 +48,7 @@ const Landing = () => {
               </a>
             </div>
           </Fade>
+
           <img src={profile} alt="jordan" class="profile" />
         </div>
       </section>
