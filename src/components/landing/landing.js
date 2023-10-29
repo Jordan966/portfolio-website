@@ -5,7 +5,9 @@ import html from "../../assets/html.png";
 import css from "../../assets/css.png";
 import js from "../../assets/js.png";
 import react from "../../assets/react.svg";
-import tailwind from "../../assets/tailwind.svg";
+// import tailwind from "../../assets/tailwind.svg";
+import python from "../../assets/python.png";
+import sql from "../../assets/sql.png";
 import Typed from "react-typed";
 import { Fade } from "react-reveal";
 import github from "../../assets/github.png";
@@ -37,7 +39,9 @@ const Landing = () => {
               <img src={css} alt="css" id="css" />
               <img src={js} alt="js" id="js" />
               <img src={react} alt="react" id="react" />
-              <img src={tailwind} alt="tailwind" id="tailwind" />
+              {/* <img src={tailwind} alt="tailwind" id="tailwind" /> */}
+              <img src={python} alt="python" id="python" />
+              <img src={sql} alt="sql" id="sql" />
             </div>
             <div className="socials">
               <a href="https://github.com/Jordan966" target="blank">

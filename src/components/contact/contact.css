@@ -57,3 +57,28 @@ form {
     font-family: inherit;
     font-size: x-large;
 }
+
+@media screen and (max-width: 1400px) {
+    .contact {
+        min-height: 65rem;
+    }
+    .contactTitle {
+        font-size: 2.5rem;
+    }
+    .contactDesc {
+        font-size: 1.2rem;
+        line-height: 2rem;
+    }
+    input.name, input.email, textarea.message {
+        width: 40vw;
+        font-size: 1.2rem;
+        margin: 0.5rem;
+        font-family: monospace;
+    }
+    .submitButton {
+        padding: 5px 15px;
+        font-size: 1.2rem;
+        font-weight: 600;
+        margin-top: 1.5rem;
+    }
+}

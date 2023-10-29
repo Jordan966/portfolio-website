@@ -30,27 +30,26 @@ const Contact = () => {
     <section className="contact">
       <h2 className="contactTitle">Contact Me</h2>
       <span className="contactDesc">
-        Please fill out the contact form below to discuss any work
-        opportunities.
+        Please feel free to contact me using the form below &#128522;
       </span>
       <form ref={form} onSubmit={sendEmail}>
         <input
           type="text"
           name="your_name"
-          placeholder="Your name"
+          placeholder="Name"
           className="name"
         ></input>
         <input
           type="email"
           name="your_email"
-          placeholder="Your email"
+          placeholder="Email"
           className="email"
         ></input>
         <textarea
           className="message"
           name="message"
           rows="7"
-          placeholder="Your message"
+          placeholder="Message"
         ></textarea>
         <Tada>
           <button type="submit" value="Send" className="submitButton">

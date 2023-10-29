@@ -79,3 +79,26 @@
     font-size: 3rem;
     font-weight: 100;
 }
+
+@media screen and (max-width: 1400px) {
+  .wave-container3 {
+    height: 5vh;
+  }
+  .wave-container3::before {
+    height: 132px;
+  }
+  #root > div > div.wave-container3 > div > a:nth-child(3) {
+    margin: 0;
+  }
+  @keyframes waveAnimation {
+    0% {
+      background-position: -30vw 0;
+    }
+    50% {
+      background-position: -15vw 0;
+    }
+    100% {
+      background-position: -30vw 0;
+    }
+  }
+}

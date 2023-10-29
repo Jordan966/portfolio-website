@@ -104,7 +104,7 @@ const Portfolio = () => {
 
             <div className="portfolioCardNormal">
               <div className="portfolioText">
-                <h2 className="portfolioHeading">FlaskDB - CRUD Project</h2>
+                <h2 className="portfolioHeading">FlaskDB - CRUD</h2>
                 <p className="portfolioPara">
                   This is a web application built with Flask, Python and SQL
                   that allows users to create and manage a database of movies.

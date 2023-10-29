@@ -8,7 +8,6 @@
     align-items: center;
     margin: 0 auto;
     padding: 0 1rem;
-    /* font-family: 'Raleway', sans-serif; */
     font-family: 'Plus Jakarta Sans', sans-serif;
     font-weight: bolder;
 }
@@ -119,6 +118,35 @@
     align-items: center;
 
 }
+
+@media screen and (max-width: 1400px) {
+    #root > div > div:nth-child(4) > section > h2 {
+        font-size: 2.5rem;
+        margin-top: 7rem;
+    }
+    #root > div > div:nth-child(4) > section > span {
+        font-size: 1.2rem;
+        padding: 0;
+        line-height: 2rem;
+    }
+    p.portfolioPara {
+        font-size: 1rem;
+        min-height: 43vh;
+    }
+    .portfolioText {
+        margin: 1rem;
+    }
+
+    .portfolioCardNormal {
+        max-width: 30vw;
+    }
+
+    .portfolioContainer {
+        width: 60vw;
+    }
+
+}
+
 
 /* TABLET STYLE - 768px */
 @media screen and (max-width: 768px) {

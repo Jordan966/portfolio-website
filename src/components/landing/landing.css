@@ -81,6 +81,7 @@
         justify-content: flex-end;
         max-width: 53rem;
     }
+
     #intro > div > div.react-reveal.socials > a:nth-child(2) {
         margin: 0;
     }
@@ -97,11 +98,14 @@
         font-size: 1.25rem;
     }
 
-    img#html, img#css, img#js, img#react, img#tailwind {
+    img#html, img#css, img#js, img#react, img#tailwind, img#python, img#sql {
         width: 40px;
         height: 40px;
     }
     
+    img#html:hover, img#css:hover, img#js:hover, img#react:hover, img#tailwind:hover, img#python:hover, img#sql:hover {
+        transform: scale(1.75);
+    }
     
 }
 
@@ -202,6 +206,24 @@
     transition: all 0.5s ease-in-out;
 }
 #tailwind:hover {
+    transform: scale(2.5);
+}
+
+#python {
+    width: 50px;
+    height: 50px;
+    transition: all 0.5s ease-in-out;
+}
+#python:hover {
+    transform: scale(2.5);
+}
+
+#sql {
+    width: 50px;
+    height: 50px;
+    transition: all 0.5s ease-in-out;
+}
+#sql:hover {
     transform: scale(2.5);
 }
 
