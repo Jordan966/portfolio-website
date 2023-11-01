@@ -80,7 +80,7 @@
     font-weight: 100;
 }
 
-@media screen and (max-width: 1450px) {
+@media screen and (max-width: 1920px) {
   .wave-container3 {
     height: 5vh;
   }

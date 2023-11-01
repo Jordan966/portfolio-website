@@ -58,7 +58,7 @@ form {
     font-size: x-large;
 }
 
-@media screen and (max-width: 1450px) {
+@media screen and (max-width: 1920px) {
     .contact {
         min-height: 65rem;
     }
