@@ -36,9 +36,7 @@
 }
 
 .profile {
-    margin-top: 10vh;
     position: absolute;
-    top: 0rem;
     /* right: 50vh; */
     right: 25vw;
     z-index: 1;
@@ -110,7 +108,7 @@
 }
 
 .content {
-    height: 100vh;
+    height: 90vh;
     width: 100vw;
     max-width: 75rem;
     padding: 2rem;
