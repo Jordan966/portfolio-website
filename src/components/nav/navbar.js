@@ -63,7 +63,7 @@ const Navbar = () => {
       {/* END OF DESKTOP NAV */}
 
       {/* MOBILE NAV - Burger */}
-      <div className="mobileMenu">
+      {/* <div className="mobileMenu">
         <img
           src={burgerMenu}
           alt="burger menu"
@@ -109,7 +109,7 @@ const Navbar = () => {
             <hr className="menuSeparator" />
           </Link>
         </div>
-      </div>
+      </div> */}
       {/* END OF MOBILE NAV */}
     </nav>
   );

@@ -18,7 +18,7 @@
     color: black;
 }
 
-@media screen and (max-width: 1400px) {
+@media screen and (max-width: 1450px) {
   .navbar {
         height: 15vh;
         width: 100vw;

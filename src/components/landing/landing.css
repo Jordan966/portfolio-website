@@ -44,7 +44,7 @@
     height: 85vh; 
 }
 
-@media screen and (max-width: 1400px) {
+@media screen and (max-width: 1450px) {
     .profile {
         margin: 0;
         transform: scale(1.1);

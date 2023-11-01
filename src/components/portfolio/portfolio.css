@@ -199,7 +199,7 @@ a.projectLink {
     width: 107%;
 }
 
-@media screen and (max-width: 1400px) {
+@media screen and (max-width: 1450px) {
     #root > div > div:nth-child(4) > section > h2 {
         font-size: 2.5rem;
         margin-top: 7rem;
@@ -215,10 +215,6 @@ a.projectLink {
     }
     .portfolioText {
         margin: 1rem;
-    }
-
-    .portfolioCardNormal {
-        max-width: 30vw;
     }
 
     .portfolioContainer {
