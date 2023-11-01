@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.bc608fa7.css",
+    "main.css": "/static/css/main.947ed7c1.css",
     "main.js": "/static/js/main.e745c21f.js",
     "static/media/jordanfade.png": "/static/media/jordanfade.5b5342f081995e882a3b.png",
     "static/media/python.png": "/static/media/python.6a5cbc319ab3ddf8ef92.png",
@@ -11,11 +11,11 @@
     "index.html": "/index.html",
     "static/media/react.svg": "/static/media/react.928f956d9c8ebcffb98a8e917154a81a.svg",
     "static/media/burgermenu.svg": "/static/media/burgermenu.67332a81bb07963cece5a9cafca80db2.svg",
-    "main.bc608fa7.css.map": "/static/css/main.bc608fa7.css.map",
+    "main.947ed7c1.css.map": "/static/css/main.947ed7c1.css.map",
     "main.e745c21f.js.map": "/static/js/main.e745c21f.js.map"
   },
   "entrypoints": [
-    "static/css/main.bc608fa7.css",
+    "static/css/main.947ed7c1.css",
     "static/js/main.e745c21f.js"
   ]
 }
