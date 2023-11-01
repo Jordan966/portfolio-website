@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.7d2eb4f6.css",
-    "main.js": "/static/js/main.ad23f610.js",
+    "main.css": "/static/css/main.bc608fa7.css",
+    "main.js": "/static/js/main.e745c21f.js",
     "static/media/jordanfade.png": "/static/media/jordanfade.5b5342f081995e882a3b.png",
     "static/media/python.png": "/static/media/python.6a5cbc319ab3ddf8ef92.png",
     "static/media/sql.png": "/static/media/sql.64b3eb63f995c0da35b3.png",
@@ -11,11 +11,11 @@
     "index.html": "/index.html",
     "static/media/react.svg": "/static/media/react.928f956d9c8ebcffb98a8e917154a81a.svg",
     "static/media/burgermenu.svg": "/static/media/burgermenu.67332a81bb07963cece5a9cafca80db2.svg",
-    "main.7d2eb4f6.css.map": "/static/css/main.7d2eb4f6.css.map",
-    "main.ad23f610.js.map": "/static/js/main.ad23f610.js.map"
+    "main.bc608fa7.css.map": "/static/css/main.bc608fa7.css.map",
+    "main.e745c21f.js.map": "/static/js/main.e745c21f.js.map"
   },
   "entrypoints": [
-    "static/css/main.7d2eb4f6.css",
-    "static/js/main.ad23f610.js"
+    "static/css/main.bc608fa7.css",
+    "static/js/main.e745c21f.js"
   ]
 }
