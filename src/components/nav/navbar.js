@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import "./navbar.css";
 import logo from "../../assets/jdlogo.png";
 import { Link, animateScroll as scroll } from "react-scroll";
-import burgerMenu from "../../assets/burgermenu.svg";
 import email from "../../assets/email.png";
 
 const Navbar = () => {
@@ -13,7 +12,16 @@ const Navbar = () => {
     });
   };
 
-  const [showMenu, setShowMenu] = useState(false);
+  const [isSidebarOpen, setIsSidebarOpen] = useState(false);
+
+  const toggleSidebar = () => {
+    setIsSidebarOpen(!isSidebarOpen);
+  };
+
+  const linkClick = () => {
+    scrollToTop();
+    toggleSidebar();
+  };
 
   return (
     <nav className="navbar" id="navbar">
@@ -60,57 +68,52 @@ const Navbar = () => {
           Contact <img src={email} alt="email icon" className="emailIcon" />
         </button>
       </Link>
-      {/* END OF DESKTOP NAV */}
-
-      {/* MOBILE NAV - Burger */}
-      {/* <div className="mobileMenu">
-        <img
-          src={burgerMenu}
-          alt="burger menu"
-          className="mobileMenu"
-          onClick={() => setShowMenu(!showMenu)}
-        />
-        <div
-          className="burgerMenu"
-          style={{ display: showMenu ? "flex" : "none" }}
-        >
+      <label className="hamburger-menu">
+        <input type="checkbox" />
+      </label>
+      <aside className="sidebar">
+        <nav>
           <Link
-            className="mobileMenuItem scrollLink"
+            className="burger-links"
             activeClass="active"
             spy={true}
             to="navbar"
-            onClick={() => setShowMenu(false)}
+            onClick={linkClick}
           >
             Home
-            <hr className="menuSeparator" />
           </Link>
           <Link
-            className="mobileMenuItem scrollLink"
+            className="burger-links"
             activeClass="active"
             spy={true}
             to="about"
             smooth={true}
             duration={500}
-            onClick={() => setShowMenu(false)}
           >
             About Me
-            <hr className="menuSeparator" />
           </Link>
           <Link
-            className="mobileMenuItem scrollLink"
+            className="burger-links"
             activeClass="active"
             spy={true}
             to="portfolio"
             smooth={true}
             duration={500}
-            onClick={() => setShowMenu(false)}
           >
             Portfolio
-            <hr className="menuSeparator" />
           </Link>
-        </div>
-      </div> */}
-      {/* END OF MOBILE NAV */}
+          <Link
+            className="burger-links"
+            activeClass="active"
+            to="contact"
+            smooth={true}
+            duration={500}
+          >
+            Contact
+          </Link>
+        </nav>
+      </aside>
+      {/* END OF DESKTOP NAV */}
     </nav>
   );
 };
